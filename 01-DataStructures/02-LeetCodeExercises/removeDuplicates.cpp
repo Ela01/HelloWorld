@@ -22,14 +22,17 @@ using namespace std;
 int removeDuplicates(vector<int> &nums)
 {
 
-    if(nums.size() <= 2) {
+    if (nums.size() <= 2)
+    {
         return nums.size();
     }
-        
-    int start = 0; 
-        
-    for(int itr = 2; itr < nums.size(); itr++) {
-        if(nums[itr] != nums[start]) {
+
+    int start = 0;
+
+    for (int itr = 2; itr < nums.size(); itr++)
+    {
+        if (nums[itr] != nums[start])
+        {
             nums[start + 2] = nums[itr];
             start++;
         }
@@ -52,4 +55,9 @@ int main()
     vect.push_back(3);
 
     removeDuplicates(vect);
+
+    for (int i = 0; i < vect.size(); i++)
+    {
+        cout << vect[i];
+    }
 }
