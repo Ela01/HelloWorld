@@ -82,7 +82,7 @@ public:
 
         if (adjList.count(vertex) == 0)
         {
-            adjList[vertex];
+            adjList[vertex]; // index?
             return true;
         }
         return false;
