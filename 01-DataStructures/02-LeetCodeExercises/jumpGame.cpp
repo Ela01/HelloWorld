@@ -30,3 +30,4 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
         maxJump = max(maxJump, i + nums[i]);
     }
     return true;
+    }
