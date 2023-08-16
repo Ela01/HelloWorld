@@ -2,6 +2,12 @@
   "files.associations": {
     "iosfwd": "cpp",
     "locale": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "__hash_table": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp"
   }
 }
